@@ -7,6 +7,7 @@ This is my personal record for understanding about computer
 `clone` - `CMD` - `mkdir` - `git clone URL`
 
 ## Python
+[Python_record]: https://github.com/audrl1010/Python
 
 ## Memo
 

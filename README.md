@@ -14,6 +14,31 @@ This is my personal record for understanding about computer
 ## Python
 [Python_record](https://github.com/audrl1010/Python)
 
+```python
+def fib(n):
+    if n == 1 or n == 2:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+k = int(input("입력하시오:"))
+result = 0
+for n in range(1,k+1):
+    a = fib(n)
+    if a % 2 == 0:
+        result += fib(n)
+    else:continue
+print(result)
+
+a, b = 1, 1
+total = 0
+while a <= 4000000:
+    if a % 2 == 0:
+        total += a
+    a, b = b, a+b  # the real formula for Fibonacci sequence
+print(total)
+```
+
 ## Memo
 
 - what's TDD?
